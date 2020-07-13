@@ -1,0 +1,185 @@
+
+/*
+ * General Styles
+*/
+
+body {
+  background: url('../images/designer-bottle.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+  /* fullpage background recipie*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ul li {
+    list-style: decimal inside;
+  }
+/*
+ * Heading Styles
+*/
+
+h1, h2 {
+  padding: 10px;
+  background: white;
+  font-size: 46px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+      margin:0;
+      line-height: 1;
+      background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+      -webkit-background-size: 125px;
+      
+      color: #2caa56e8;
+      -webkit-background-clip: text;
+      
+      -webkit-animation-name: shine;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: infinite;
+                    
+  }
+  @-webkit-keyframes shine
+  {
+      0%
+      {
+          background-position: top left;
+      }
+      100%
+      {
+          background-position: top right;
+      }
+  }
+  h2{
+    padding: 10px;
+  background: white;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  line-height: 0;
+}
+
+/*
+ * ohh-baby Styles
+*/
+.ohh-baby img{
+  background: rgb(235, 165, 188);
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+/*
+ * details Styles
+*/
+.details{
+  background:white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/*
+ * hungry Styles
+*/
+#hungry h2{
+  padding: 40px;
+}
+#hungry p{
+  background:white;
+  text-align: center;
+  padding: 20px 30px 0 0;
+}
+
+#hungry img{
+float: left;
+border-radius: 50%;
+}
+/*
+ * target-registry styles
+*/
+.target-registry{
+  
+  background: white;
+  padding: 55px 0 55px 0;
+
+}
+.target-registry p{
+  text-align: center;
+  padding: 46px 0 0 20px
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+.target-logo img{
+  float: right;
+  margin-top: 50px;
+
+ }
+ /*
+ * contact styles
+*/
+
+.contact{
+  background: whitesmoke;
+  padding: 70px;
+  margin: 60px 0 50px 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight:900;
+  line-height: 1;
+}
+.contact h2{
+  background-color: whitesmoke;
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+    
+    color: #2caa56e8;
+    -webkit-background-clip: text;
+    
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+                  
+}
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
