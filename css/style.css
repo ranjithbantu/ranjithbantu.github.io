@@ -105,7 +105,7 @@ h1, h2 {
   line-height: 1.5;
 }
 .baby-girl img{
-  padding-right: 30px;
+  padding-right: 70px;
 }
 
 /*
@@ -136,6 +136,7 @@ padding: 20px;
 
 }
 .target-registry p{
+  background: white;
   text-align: center;
   padding: 46px 0 0 20px
 }
