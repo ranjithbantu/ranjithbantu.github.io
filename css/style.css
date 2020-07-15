@@ -98,27 +98,38 @@ h1, h2 {
 /*
  * details Styles
 */
-.details{
+.details, p{
+  padding: 20px;
   background:white;
   text-align: center;
   line-height: 1.5;
+}
+.baby-girl img{
+  padding-right: 30px;
 }
 
 /*
  * hungry Styles
 */
-#hungry h2{
-  padding: 40px;
-}
-#hungry p{
+.hungry, h2{
+  padding:0 20px 30px 20px;
   background:white;
-  text-align: center;
-  padding: 20px 30px 0 0;
+  
 }
 
-#hungry img{
+.hungry img{
 float: left;
-border-radius: 50%;
+border-radius: 50px;
+padding: 20px;
+}
+.raffel, p{
+  background-color:whitesmoke;
+
+}
+.diaper-raffle img{
+  float: right;
+  text-align: center;
+
 }
 /*
  * target-registry styles
@@ -126,7 +137,7 @@ border-radius: 50%;
 .target-registry{
   
   background: white;
-  padding: 5px 0 55px 0;
+  padding: 5px 0 70px 0;
 
 }
 .target-registry p{
