@@ -84,6 +84,7 @@ h1, h2 {
   width: 600px;
   margin: 100px auto;
   line-height: 0;
+  overflow: hidden;
 }
 
 /*
