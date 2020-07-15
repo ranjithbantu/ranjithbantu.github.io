@@ -45,6 +45,15 @@ h2{
     text-align: center;
     padding: 60px;
 }
+.hungry img{
+    float: left;
+    border-radius: 50px;
+    padding: 20px;
+    }
+    .raffel, p{
+      background-color:whitesmoke;
+    
+    }
 .target-registry{
     text-align: center;
 }
