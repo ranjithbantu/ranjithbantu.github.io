@@ -124,7 +124,10 @@ padding: 30px;
 }
 .raffel, p{
   background-color:whitesmoke;
-
+  padding-bottom: 0;
+}
+.raffel img{
+  margin-left: 150px;
 }
 /*
  * target-registry styles
@@ -138,7 +141,7 @@ padding: 30px;
 .target-registry p{
   background: white;
   text-align: center;
-  padding: 46px 0 0 20px
+  padding: 6px 0 0 20px
 }
 
 a{
@@ -151,7 +154,7 @@ a:hover{
 
 .target-logo img{
   float: right;
-  margin-top: 50px;
+  margin-right: 200px; 
 
  }
  /*
