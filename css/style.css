@@ -71,11 +71,6 @@ h1, h2 {
           background-position: top right;
       }
   }
-  h2{
-    padding: 10px;
-  background: white;
-}
-
 /*
  * Container Styles
 */
@@ -104,44 +99,25 @@ h1, h2 {
   text-align: center;
   line-height: 1.5;
 }
-.baby-girl img{
-  margin-right: 70px;
-}
-
 /*
- * hungry Styles
+ * details Styles
 */
-.hungry, h2{
-  padding:0 20px 30px 20px;
-  background:white;
-  
-}
-
-.hungry img{
-float: left;
-border-radius: 50px;
-padding: 30px;
-}
-.raffel, p{
-  background-color:whitesmoke;
-  padding-bottom: 0;
+.raffel h2{
+  background: white;
+  margin-top: 20px;
 }
 .raffel img{
-  margin-left: 150px;
+  width: 100%;
+background: white;
+padding: 0 30px 0 30px;
 }
 /*
  * target-registry styles
 */
-.target-registry{
-  
-  background: white;
-  padding: 5px 0 70px 0;
-
-}
-.target-registry p{
+.target-registry h2, .target-logo, p{
   background: white;
   text-align: center;
-  padding: 6px 0 0 20px
+  padding-bottom: 30px;
 }
 
 a{
@@ -151,46 +127,10 @@ a{
 a:hover{
   color: red;
 }
-
-.target-logo img{
-  float: right;
-  margin-right: 200px; 
-
- }
  /*
  * contact styles
 */
 
 .contact{
   background: whitesmoke;
-  padding: 70px;
-  margin: 60px 0 50px 0;
-  text-align: center;
-  font-size: 20px;
-  font-weight:900;
-  line-height: 1;
-}
-.contact h2{
-  background-color: whitesmoke;
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
-    -webkit-background-size: 125px;
-    
-    color: #2caa56e8;
-    -webkit-background-clip: text;
-    
-    -webkit-animation-name: shine;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-                  
-}
-@-webkit-keyframes shine
-{
-    0%
-    {
-        background-position: top left;
-    }
-    100%
-    {
-        background-position: top right;
-    }
 }

@@ -33,7 +33,6 @@ h1, h2{
     }
 }
 h2{
-    padding-bottom: 10px;
     background:white;
 
 }
@@ -43,31 +42,17 @@ h2{
 }
 .details aside{
     text-align: center;
-    padding: 60px;
+    padding: 20px 20px 0 20px;
 }
 .hungry img{
     float: left;
     border-radius: 50px;
     padding: 20px;
     }
-.raffel, p{
+.raffel p img{
         background-color:whitesmoke;
-        padding-bottom: 0;
-      }
-      .raffel img{
-        margin-left: 100px;
-}
-
-.target-registry p{
-        background: white;
         text-align: center;
-        padding: 6px 0 0 20px
-      }
-.target-logo img{
-        float: right;
-        margin-right: 150px; 
-      
 }
-.contact{
-    margin-top: 110px;
+.contact h2 p{
+    background: whitesmoke;
 }
